@@ -6,7 +6,6 @@
     list-style: none;
     font-family: 'PT Sans', sans-serif;
     scroll-behavior: smooth;
-    
 }
 body{
     background-color: rgb(10, 128, 201);
@@ -18,12 +17,10 @@ body{
     text-align: center;
     background-color: black;
     margin-bottom: 20px;
-    
 }
 .banner img{
     height: 25vh;
 
-    
 }
 #alert{
     position: fixed;
@@ -78,7 +75,6 @@ body{
     overflow: hidden;
     padding-bottom: 5px;
     justify-content: center;
-    
     /* top: 0;
     position: sticky; */
 }
@@ -101,7 +97,7 @@ body{
 }
 .navItems:hover .dropDownBtn{
    transform: rotate(180deg);
-   
+
 }
 .dropDownOptions{
     text-align:center;
@@ -121,13 +117,13 @@ body{
     max-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
-   
+
   }
   .navItems:hover>.dropDownContent{
       display: flex;
        flex-flow: column wrap;
   }
-  
+
   .dropDownContent a {
     color: black;
     padding:5px 10px;
@@ -135,8 +131,7 @@ body{
     display: block;
     text-align: center;
   }
- 
-  
+
   .dropDownOptions:hover {
       background-color: rgb(250, 135, 4);
       color: blanchedalmond;
@@ -175,8 +170,8 @@ body{
        flex-flow: column wrap;
 
     }
-  
- 
+
+
 /* main container */
 .container{
     display: flex;
@@ -187,7 +182,7 @@ body{
     height: 650vh;
     background-color: aliceblue;
     border-radius: 5px;
-    
+
 
 
 }
@@ -285,8 +280,8 @@ span{
 
 }
 /* links */
-a{  
-    text-decoration: none; 
+a{
+    text-decoration: none;
     color: rgb(240, 164, 78);
     font-size: 20px;
 
@@ -298,7 +293,7 @@ h2{
     margin: 0px;
     padding: 10px;
     color: white;
-    
+
 }
 h2 img{
     width: 25px;
@@ -329,7 +324,7 @@ h3{
         height: 160px;
         object-fit: contain;
         transition: transform 0.5s ease;
-        
+
     }
 
     .image:hover{
@@ -342,7 +337,7 @@ h3{
     justify-content:space-evenly;
     flex-flow: row wrap;
     margin: 20px;
-    
+
 
 }
 .image1{
@@ -383,7 +378,7 @@ h3{
     text-indent: 0px;
     word-spacing: 2px;
     letter-spacing: 0.5;
-} 
+}
   .image2 img{
     width: 30px;
     height: 30px;
@@ -404,12 +399,10 @@ h3{
     padding: 1px;
 }
 .emblem{
-    margin-top: 20px; 
-    width: 200px; 
+    margin-top: 20px;
+    width: 200px;
     height: 200px;
-    
 
-    
 }
   .carousel-cell4 {
     width: 66%;
@@ -424,7 +417,6 @@ h3{
 
   /* subContainer4 */
   .skins{
-    
     width: 250px;
     height: 350px;
     padding: 5px;
@@ -488,8 +480,8 @@ h3{
 
 /* subContainer7 */
 .thead{
-    background-color: rgb(180, 180, 180); 
-    color: rgb(250, 135, 4); 
+    background-color: rgb(180, 180, 180);
+    color: rgb(250, 135, 4);
     padding: 5px;
     margin: 0px;
 }
@@ -517,7 +509,7 @@ th,td{
         top: 0;
         position: sticky;
     } */
-    
+
 }
 
 @media only screen and (max-width:1216px ) and (min-width:1126px) {
@@ -528,7 +520,7 @@ th,td{
 
 
     /* links */
-a{  
+a{
     font-size: 17px;
 
 }
@@ -585,8 +577,7 @@ h3{
         text-indent: 50px;
         word-spacing: 2px;
         letter-spacing: 0.5px;
-    
-    
+
     }
     .image2 img{
         width: 25px;
@@ -606,7 +597,7 @@ h3{
         background-color: black;
     }
     .emblem{
-        width: 120px; 
+        width: 120px;
         height: 120px
     }
     /* subContainer4 */
@@ -614,11 +605,10 @@ h3{
         height: 80vh;
     }
     .skins{
-    
         width: 200px;
         height: 300px;
     }
-    
+
     .skinLogo{
         width: 60px;
     }
@@ -643,7 +633,7 @@ h3{
     .main_img{
         width: 170px;
         height: 300px;
-    
+
     }
     .span{
         font-size: 16px;
@@ -668,7 +658,7 @@ h3{
         height: 45px;
         margin: 5px;
     }
-    
+
     /* subContainer7 */
     #subContainer7{
         height: 250vh
@@ -677,8 +667,7 @@ h3{
         width: 50px;
         height: 50px;
     }
-    
-    
+
 }
 @media only screen and (max-width:1125px ) and (min-width:1071px) {
     #alert{
@@ -686,19 +675,17 @@ h3{
         right: 4rem;
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
-        
-    
+
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
-    
+
     }
-    
+
     /* .navBar{
         top: 0;
         position: sticky;
@@ -706,7 +693,7 @@ h3{
 
 
     /* links */
-a{  
+a{
     font-size: 17px;
 
 }
@@ -763,8 +750,6 @@ h3{
         text-indent: 50px;
         word-spacing: 2px;
         letter-spacing: 0.5px;
-    
-    
     }
     .image2 img{
         width: 25px;
@@ -784,7 +769,7 @@ h3{
         background-color: black;
     }
     .emblem{
-        width: 120px; 
+        width: 120px;
         height: 120px
     }
     /* subContainer4 */
@@ -792,11 +777,9 @@ h3{
         height: 80vh;
     }
     .skins{
-    
         width: 160px;
         height: 260px;
     }
-    
     .skinLogo{
         width: 60px;
     }
@@ -821,7 +804,6 @@ h3{
     .main_img{
         width: 170px;
         height: 300px;
-    
     }
     .span{
         font-size: 16px;
@@ -846,7 +828,6 @@ h3{
         height: 45px;
         margin: 5px;
     }
-    
     /* subContainer7 */
     #subContainer7{
         height: 250vh
@@ -855,7 +836,6 @@ h3{
         width: 50px;
         height: 50px;
     }
-    
 }
 @media only screen and (max-width:1070px ) and (min-width:1057px) {
     #alert{
@@ -863,19 +843,16 @@ h3{
         right: 4rem;
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
-        
-    
+
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
-    
     }
-   
+
     /* .navBar{
      top: 0;
      position: sticky;
@@ -883,7 +860,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 17px;
 
 }
@@ -940,8 +917,7 @@ h3{
      text-indent: 50px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .image2 img{
      width: 25px;
@@ -961,7 +937,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -969,11 +945,11 @@ h3{
      height: 80vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -998,7 +974,7 @@ h3{
  .main_img{
      width: 170px;
      height: 300px;
- 
+
  }
  .span{
      font-size: 16px;
@@ -1023,7 +999,7 @@ h3{
      height: 45px;
      margin: 5px;
  }
- 
+
  /* subContainer7 */
  #subContainer7{
      height: 250vh
@@ -1032,7 +1008,7 @@ h3{
      width: 50px;
      height: 50px;
  }
- 
+
 }
 
 @media only screen and (max-width:1056px ) and (min-width:1000px) {
@@ -1041,17 +1017,15 @@ h3{
         right: 4rem;
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
-        
-    
+
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
-    
+
     }
     /* .navBar{
      top: 0;
@@ -1060,7 +1034,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 17px;
 
 }
@@ -1117,8 +1091,7 @@ h3{
      text-indent: 50px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .image2 img{
      width: 25px;
@@ -1138,7 +1111,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -1146,11 +1119,11 @@ h3{
      height: 140vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -1175,7 +1148,7 @@ h3{
  .main_img{
      width: 160px;
      height: 300px;
- 
+
  }
  .span{
      font-size: 16px;
@@ -1200,7 +1173,7 @@ h3{
      height: 45px;
      margin: 5px;
  }
- 
+
  /* subContainer7 */
  #subContainer7{
      height: 250vh
@@ -1209,7 +1182,7 @@ h3{
      width: 50px;
      height: 50px;
  }
- 
+
 }
 @media only screen and (max-width:999px ) and (min-width:978px) {
     #alert{
@@ -1219,23 +1192,20 @@ h3{
 
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
         font-size: 15px;
 
-    
+
     }
-    
+
     /* .navBar{
      top: 0;
      position: sticky;
@@ -1243,7 +1213,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 17px;
 
 }
@@ -1309,8 +1279,7 @@ h3{
      text-indent: 50px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .image2 img{
      width: 25px;
@@ -1330,7 +1299,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -1338,11 +1307,11 @@ h3{
      height: 140vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -1367,7 +1336,7 @@ h3{
  .main_img{
      width: 140px;
      height: 300px;
- 
+
  }
  .span{
      font-size: 16px;
@@ -1392,7 +1361,7 @@ h3{
      height: 45px;
      margin: 5px;
  }
- 
+
  /* subContainer7 */
  #subContainer7{
      height: 250vh
@@ -1401,31 +1370,26 @@ h3{
      width: 50px;
      height: 50px;
  }
- 
+
 }
 @media only screen and (max-width:977px ) and (min-width:837px) {
-   
     #alert{
         bottom: 4rem;
         right: 4rem;
         font-size: 15px;
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
         font-size: 15px;
 
-    
     }
     /* .navBar{
      top: 0;
@@ -1434,7 +1398,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 17px;
 
 }
@@ -1500,8 +1464,7 @@ h3{
      text-indent: 50px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .image2 img{
      width: 25px;
@@ -1521,7 +1484,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -1529,11 +1492,10 @@ h3{
      height: 140vh;
  }
  .skins{
- 
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -1558,7 +1520,7 @@ h3{
  .main_img{
      width: 130px;
      height: 300px;
- 
+
  }
  .span{
      font-size: 12px;
@@ -1583,7 +1545,7 @@ h3{
      height: 45px;
      margin: 5px;
  }
- 
+
  /* subContainer7 */
  #subContainer7{
      height: 230vh
@@ -1595,7 +1557,7 @@ h3{
      width: 45px;
      height: 45px;
  }
- 
+
 }
 @media only screen and (max-width:836px ) and (min-width:833px) {
     #alert{
@@ -1605,23 +1567,19 @@ h3{
 
     }
     #Btn{
-         
         right: 3.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 4rem;
         font-size: 15px;
 
-    
     }
-    
+
     /* .navBar{
      top: 0;
      position: sticky;
@@ -1629,7 +1587,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 17px;
 
 }
@@ -1695,8 +1653,7 @@ h3{
      text-indent: 50px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .image2 img{
      width: 25px;
@@ -1716,7 +1673,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -1724,11 +1681,10 @@ h3{
      height: 140vh;
  }
  .skins{
- 
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -1753,7 +1709,7 @@ h3{
  .main_img{
      width: 130px;
      height: 300px;
- 
+
  }
  .span{
      font-size: 12px;
@@ -1778,7 +1734,7 @@ h3{
      height: 45px;
      margin: 5px;
  }
- 
+
  /* subContainer7 */
  #subContainer7{
      height: 233vh
@@ -1790,10 +1746,9 @@ h3{
      width: 45px;
      height: 45px;
  }
- 
+
 }
 @media only screen and (max-width:832px ) and (min-width:767px) {
-    
     #alert{
         bottom: 4rem;
         right: 10rem;
@@ -1801,21 +1756,17 @@ h3{
 
     }
     #Btn{
-         
         right: 9.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 10rem;
         font-size: 15px;
 
-    
     }
     /* .navBar{
      top: 0;
@@ -1824,7 +1775,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -1892,8 +1843,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -1921,7 +1871,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -1929,11 +1879,10 @@ h3{
      height: 140vh;
  }
  .skins{
- 
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -2001,7 +1950,6 @@ h3{
 
 }
 @media only screen and (max-width:766px ) and (min-width:700px) {
-    
     #alert{
         bottom: 4rem;
         right: 10rem;
@@ -2009,21 +1957,18 @@ h3{
 
     }
     #Btn{
-         
         right: 9.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 10rem;
         font-size: 15px;
 
-    
+
     }
     /* .navBar{
      top: 0;
@@ -2032,7 +1977,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -2102,8 +2047,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -2131,7 +2075,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -2139,11 +2083,11 @@ h3{
      height: 140vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -2218,23 +2162,20 @@ h3{
 
     }
     #Btn{
-         
         right: 9.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
+
     #alert2{
         top: 20rem;
         right: 10rem;
         font-size: 15px;
 
-    
+
     }
-  
+
     /* .navBar{
      top: 0;
      position: sticky;
@@ -2242,7 +2183,7 @@ h3{
 
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -2312,8 +2253,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -2341,7 +2281,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -2349,11 +2289,10 @@ h3{
      height: 140vh;
  }
  .skins{
- 
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -2428,21 +2367,16 @@ h3{
 
     }
     #Btn{
-         
         right: 9.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
     #alert2{
         top: 20rem;
         right: 10rem;
         font-size: 15px;
 
-    
     }
     /* .navBar{
      top: 0;
@@ -2450,7 +2384,7 @@ h3{
  } */
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -2520,8 +2454,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -2549,7 +2482,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -2557,11 +2490,10 @@ h3{
      height: 140vh;
  }
  .skins{
- 
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -2636,30 +2568,24 @@ h3{
 
     }
     #Btn{
-         
         right: 8.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
     #alert2{
         top: 20rem;
         right: 9rem;
         font-size: 15px;
 
-    
     }
-    
     /* .navBar{
      top: 0;
      position: sticky;
  } */
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -2729,8 +2655,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -2758,7 +2683,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -2766,11 +2691,11 @@ h3{
      height: 180vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -2845,31 +2770,25 @@ h3{
 
     }
     #Btn{
-         
         right: 8.5rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
     #alert2{
         top: 20rem;
         right: 9rem;
         font-size: 15px;
 
-    
     }
-    
-   
+
     /* .navBar{
      top: 0;
      position: sticky;
  } */
 
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -2939,8 +2858,7 @@ h3{
      text-indent: 45px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 18px;
@@ -2968,7 +2886,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 120px; 
+     width: 120px;
      height: 120px
  }
  /* subContainer4 */
@@ -2976,11 +2894,11 @@ h3{
      height: 180vh;
  }
  .skins{
- 
+
      width: 160px;
      height: 260px;
  }
- 
+
  .skinLogo{
      width: 60px;
  }
@@ -3055,24 +2973,17 @@ h3{
 
     }
     #Btn{
-         
         right: 17rem;
         bottom: 3.5rem;
         font-size: 15px;
 
-        
-    
     }
-   
     #alert2{
         top: 20rem;
         right: 9rem;
         font-size: 13px;
 
-    
     }
-    
-    
     /* .navBar{
      top: 0;
      position: sticky;
@@ -3090,7 +3001,7 @@ h3{
      height: 40vh;
  }
  /* links */
-a{  
+a{
  font-size: 15px;
 
 }
@@ -3171,14 +3082,13 @@ h3{
     text-indent: 0px;
     word-spacing: 1px;
     letter-spacing: 0.5;
-} 
+}
    .style2{
      font-size: 15px;
      text-indent: 30px;
      word-spacing: 2px;
      letter-spacing: 0.5px;
- 
- 
+
  }
  .style2_1{
     font-size: 16px;
@@ -3206,7 +3116,7 @@ h3{
      background-color: black;
  }
  .emblem{
-     width: 100px; 
+     width: 100px;
      height: 100px
  }
  /* subContainer4 */
@@ -3214,11 +3124,10 @@ h3{
      height: 180vh;
  }
  .skins{
- 
+
      width: 140px;
      height: 240px;
  }
- 
  .skinLogo{
      width: 60px;
  }
