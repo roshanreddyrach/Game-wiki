@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+
+    
+}
+body{
+    background-color: rgb(10, 128, 201);
+}
+/* header */
+.banner{
+    height: 25vh;
+    text-align: center;
+    background-color: black;
+    
+}
+.banner img{
+    height: 25vh;
+
+    
+}
+#alert{
+    position: fixed;
+    color: black;
+    background-color: rgb(250, 135, 4) ;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 6rem;
+    right: 5rem;
+}
+#Btn{
+     position: fixed;
+    color: black;
+    background-color: rgb(250, 135, 4) ;
+    right: 6rem;
+    bottom: 5rem;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.msg{
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+.alert{
+    opacity: 1;
+  transition: opacity 0.2s ease-in;
+
+}
+#alert2{
+    position: fixed;
+    color: black;
+    background-color: rgb(250, 135, 4) ;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    top: 23rem;
+    right: 5rem;
+
+}
+
+/* navigation bar */
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(250, 135, 4); */
+    height: 10vh;
+    overflow: hidden;
+    padding-bottom: 5px;
+    justify-content: center;
+    /* top: 0;
+    position: sticky; */
+}
+.navMenu{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 30px;
+    flex-flow: wrap;
+}
+.dropDown{
+    display: block;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+}
+.dropDownBtn{
+    transition: transform 0.2s ease ;
+}
+.navItems:hover .dropDownBtn{
+   transform: rotate(180deg);
+   
+}
+.dropDownOptions{
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 15px;
+}
+.moreOptions{
+    margin-left: 5px;
+    float: right;
+}
+.dropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+   
+  }
+  .navItems:hover>.dropDownContent{
+      display: flex;
+       flex-flow: column wrap;
+  }
+  
+  .dropDownContent a {
+    color: black;
+    padding:5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+ 
+  
+  .dropDownOptions:hover {
+      background-color: rgb(250, 135, 4);
+      color: blanchedalmond;
+    }
+    .dropDownContent1 {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        left:174px;
+        top: -1px;
+    }
+      .content515{
+        top: 40px;
+
+      }
+      .survivalContent{
+          top: 98px;
+           left: 118px;
+      }
+      .dropDownOptions1{
+        text-align:center;
+        text-decoration: none;
+        color: white;
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+    .dropDownOptions1:hover{
+        background-color: rgb(250, 135, 4);
+        color: blanchedalmond;
+    }
+    .navItems1:hover>.dropDownContent1{
+        display: flex;
+       flex-flow: column wrap;
+
+    }
+  
+ 
+/* main container */
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 10vh 5vw 10vh ;
+    padding: 20px 0px 20px 20px;
+    width: 88vw;
+    height: 350vh;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+
+}
+p{
+    font-size: 20px;
+}
+.heading{
+    font-size: 60px;
+     margin: 20px 0px 20px 30px;
+     padding-left: 30px;
+}
+/* links */
+a{  
+    text-decoration: none; 
+    color: rgb(240, 164, 78);
+    font-size: 20px;
+
+}
+/* headings */
+h2{
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    
+}
+h3{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.subContainer{
+    height:300vh;
+    width: 55vw;
+}
+/* subContainer1 */
+#subContainer1{
+    width: 55vw;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+}
+.span1{
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+.span2{
+    margin-left: 10px;
+    
+}
+.list{
+    margin-left: 50px;
+    
+}
+.list li{
+    font-size: 18px;
+    text-indent: 10px;
+}
+/* table */
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 19px;
+    width: 30vw;
+}
+th,td,tr{
+    padding: 10px;
+
+}
+.table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 19px;
+    width: 55vw;
+}
+
+/* subContainer2 */
+#subContainer2{
+    margin-left: 2px;
+    height: 350vh;
+    width: 30vw;
+    background-color: rgb(197, 195, 195);
+    padding: 5px;
+}
