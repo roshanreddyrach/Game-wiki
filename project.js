@@ -10,7 +10,7 @@ const alertMsg = document.querySelector('#alert')
 
             alertMsg.classList.add('msg')
             alertMsg.classList.remove('alert')
-        
+
             alertBtn.classList.add('alert')
             alertBtn.classList.remove('msg')
 
@@ -33,16 +33,15 @@ const alertMsg = document.querySelector('#alert')
 
         }
 
-        
-    }) 
-    alertMsg2.addEventListener('click',()=>{ 
+    })
+    alertMsg2.addEventListener('click',()=>{
 
         if(alertMsg2.classList.contains('alert')){
             alertMsg2.classList.add('msg')
             alertMsg2.classList.remove('alert')
         }
-    }) 
-    
+    })
+
     mediaBtn.addEventListener('click',()=>{
         if(mediaBtn.classList.contains('mediaBtnAlign')){
             mediaBtn.classList.remove('mediaBtnAlign')
@@ -55,6 +54,3 @@ const alertMsg = document.querySelector('#alert')
         }
 
     })
-    
-    
-        

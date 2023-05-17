@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'PT Sans', sans-serif;
     scroll-behavior: smooth;
-    
+
 }
 body{
     background-color: rgb(10, 128, 201);
@@ -15,12 +15,11 @@ body{
     height: 25vh;
     text-align: center;
     background-color: black;
-    
+
 }
 .banner img{
     height: 25vh;
 
-    
 }
 #alert{
     position: fixed;
@@ -73,7 +72,6 @@ body{
     overflow: hidden;
     padding-bottom: 5px;
     justify-content: center;
-    
     /* top: 0;
     position: sticky; */
 }
@@ -98,7 +96,7 @@ body{
 }
 .navItems:hover .dropDownBtn{
    transform: rotate(180deg);
-   
+
 }
 .dropDownOptions{
     text-align:center;
@@ -122,13 +120,12 @@ body{
     border-radius: 5px;
     list-style: none;
 
-   
   }
   .navItems:hover>.dropDownContent{
       display: flex;
        flex-flow: column wrap;
   }
-  
+
   .dropDownContent a {
     color: black;
     padding:5px 10px;
@@ -136,8 +133,7 @@ body{
     display: block;
     text-align: center;
   }
- 
-  
+
   .dropDownOptions:hover {
       background-color: rgb(250, 135, 4);
       color: blanchedalmond;
@@ -178,8 +174,7 @@ body{
        flex-flow: column wrap;
 
     }
-  
- 
+
 /* main container */
 .container{
     display: flex;
@@ -202,8 +197,8 @@ p{
      padding-left: 30px;
 }
 /* links */
-a{  
-    text-decoration: none; 
+a{
+    text-decoration: none;
     color: rgb(240, 164, 78);
     font-size: 20px;
 
@@ -213,7 +208,6 @@ h2{
     margin: 0px;
     padding: 10px;
     color: black;
-    
 }
 h3{
     margin-left: 10px;
@@ -307,7 +301,6 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
 
 }
 .talentItem{
@@ -381,7 +374,6 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
 
 }
 .talentItem{
@@ -455,8 +447,6 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
-
 }
 .talentItem{
     font-weight: bold;
@@ -529,7 +519,6 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
 
 }
 .talentItem{
@@ -612,7 +601,7 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
+
 
 }
 .talentItem{
@@ -686,7 +675,6 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
 
 }
 .talentItem{
@@ -761,7 +749,7 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
+
 
 }
 .talentItem{
@@ -835,7 +823,7 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
+
 
 }
 .talentItem{
@@ -910,7 +898,7 @@ h3{
     justify-content: space-around;
     font-size: 18px;
 
-    
+
 
 }
 .talentItem{
@@ -926,7 +914,6 @@ h3{
     width: 20vw;
 
     background-color: rgb(197, 195, 195);
-    
     padding: 5px;
 }
 .navPage{
@@ -942,6 +929,5 @@ h3{
     color: black;
     font-weight: bold;
     margin-bottom: 10px;
-    
-    
+
 }

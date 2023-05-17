@@ -7,7 +7,6 @@
     list-style: none;
     scroll-behavior: smooth;
 
-    
 }
 body{
     background-color: rgb(10, 128, 201);
@@ -17,12 +16,12 @@ body{
     height: 25vh;
     text-align: center;
     background-color: black;
-    
+
 }
 .banner img{
     height: 25vh;
 
-    
+
 }
 #alert{
     position: fixed;
@@ -97,7 +96,7 @@ body{
 }
 .navItems:hover .dropDownBtn{
    transform: rotate(180deg);
-   
+
 }
 .dropDownOptions{
     text-align:center;
@@ -117,13 +116,13 @@ body{
     max-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
-   
+
   }
   .navItems:hover>.dropDownContent{
       display: flex;
        flex-flow: column wrap;
   }
-  
+
   .dropDownContent a {
     color: black;
     padding:5px 10px;
@@ -131,8 +130,7 @@ body{
     display: block;
     text-align: center;
   }
- 
-  
+
   .dropDownOptions:hover {
       background-color: rgb(250, 135, 4);
       color: blanchedalmond;
@@ -171,8 +169,7 @@ body{
        flex-flow: column wrap;
 
     }
-  
- 
+
 /* main container */
 .container{
     display: flex;
@@ -195,8 +192,8 @@ p{
      padding-left: 30px;
 }
 /* links */
-a{  
-    text-decoration: none; 
+a{
+    text-decoration: none;
     color: rgb(240, 164, 78);
     font-size: 20px;
 
@@ -206,7 +203,6 @@ h2{
     margin: 0px;
     padding: 10px;
     color: black;
-    
 }
 h3{
     margin-left: 10px;
@@ -229,11 +225,10 @@ h3{
 }
 .span2{
     margin-left: 10px;
-    
 }
 .list{
     margin-left: 50px;
-    
+
 }
 .list li{
     font-size: 18px;
